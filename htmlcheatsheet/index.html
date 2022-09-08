@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <a href="blog.html">Go to Blog</a>
+        <!-- Headings -->
+        <h1 title=""My Company"t> Heading One</h1>
+        <h2> Heading Two</h2>
+        <h3> Heading Three</h2>
+        <h4> Heading Four</h2>
+        <h5> Heading Five</h2>
+        <h6> Heading Six</h2>
+
+        <!-- Paragraph -->
+        <p> Lorem ipsum dolor sit <strong>amet consectetur</strong> adipisicing elit. Iure, <a href="http://amazon.ca">maiores.</a></p> <!-- bold, amazon same tab link -->
+        <p> Lorem ipsum dolor sit <em>amet consectetur</em> adipisicing elit. Sint ea dolor explicabo sapiente placeat <a href="http://amazon.ca" target="_blank">a?</a></p> <!-- italics, amazon new tab link-->
+        <!-- Lists -->
+        <ul> <!-- Unordered -->
+            <li> List Item 1</li> <!-- List els-->
+            <li> List Item 2</li>
+            <li> List Item 3</li>
+            <li> List Item 4</li>
+        </ul>
+
+        <ol> <!-- Ordered -->
+            <li> List Item 1</li>
+            <li> List Item 2</li>
+            <li> List Item 3</li>
+            <li> List Item 4</li>
+        </ol>
+
+        <!-- Table -->
+        <table>
+            <thead> <!-- head -->
+                <tr> <!-- row -->
+                    <th>Name</th> <!-- headings -->
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody> <!-- Body -->
+                <tr>
+                    <td>Les</td>
+                    <td>les@me.com</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Lue</td>
+                    <td>lue@me.com</td>
+                    <td>61</td>
+                </tr>
+                <tr>
+                    <td>Lan</td>
+                    <td>lan@me.com</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <hr> <!-- line break with line --> 
+        <br>
+
+        <!-- Forms -->
+        <form action="process.php" method="POST"> <!-- action=WebSubmitTo, POST req to post info or GET, get shows data in url so less sec-->
+            <div>
+                <label>First Name</label> <!-- inputbox label-->
+                <input type="text" name="firstName" value="Type Here"> <!-- input type, var name of dat subbed, placeholder text-->
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email"> <!-- email dat type, -->
+            </div>
+            <br>
+            <div>
+                <label>Message</label> <!-- also input boc but with adj-able size -->
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label> 
+                <select name="gender"> <!-- select list -->
+                    <option value="male">Male</option> <!-- options -->
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label> 
+                <input type="number" name="age" value="30"> <!-- num selector, starting num -->
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday"> <!-- date selector -->
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit"> <!-- submit butt, var name, text on butt-->
+        </form>
+
+        <!-- button -->
+        <button click="Func">Button</button> <!-- button using js function -->
+        <br>
+        <!-- Img -->
+        <img src="imgs/Dwayne.jpeg" alt="Dwayne." width="200" height="200"> <!-- img, stand in txt if unloaded-->
+
+        <!-- Quoatations -->
+        <blockquote cite="http://traversymedia.com"> <!-- cites source in src code-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, tempora!
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">www</abbr> <cite>is cool.</cite></p> <!-- shows abbrev if hover word, tags as cited + put in itals-->
+
+        <div style="margin-top:500px"> </div> <!-- page width-->
+    </body>
+</html>
