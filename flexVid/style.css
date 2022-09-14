@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexContainer{ 
+    display:flex;
+   /* flex-direction: column;*/
+    background: #f4f4f4;
+    /* always on main axis*/
+    /*justify-content: space-between; /* end, start, center, spacea-round=evenly spreads space everwhere, space-between=between el*/
+    /* always on cross axis*/
+  /*  align-items: start;*/
+
+  /*flex-wrap: wrap;*/
+}
+
+/*.flex-container::after{
+    content:'';
+    clear:both;
+    display:block;
+}*/ 
+
+.item{
+    flex: 1 0 0;/*grow, shrink, base size, can j say "flex: 1"*/
+    /*flex-basis:300px;*/ /* same as width*/
+   height:100px;
+    /*flex-grow: 1;*/
+    background: #254de4; 
+    color: #fff;
+    margin: 10px; 
+
+    display:flex;
+    justify-content: center;
+    align-items:center;  
+}
+
+.item:nth-of-type(1){ 
+ /*order: 2;*/
+ /*flex-grow: 3; *//* while screen size grows, so does box at rate*/
+ /*flex-shrink: 1;*/
+}
+
+.item:nth-of-type(2){
+    /*flex-basis: 200px;*/
+
+
+}  
+
+.item:nth-of-type(3){
+
+
+  
+}  
