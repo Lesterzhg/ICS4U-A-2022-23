@@ -18,12 +18,15 @@ body{
     overflow:hidden; 
 }
 #main{
-    margin-top:240px;
     min-height:800px;
     text-align:center;
     background-image:url('./img/main.png'); 
     display: flex;
     text-justify: center;
+}
+
+body{
+    margin-top:240px;
 }
 #main h1{
     font-size: 300%;
@@ -35,7 +38,7 @@ background-size: cover;
 width: 100%;
 height: 800px;
 z-index: -1;
-background: rgba(0,0,0, 0.5);
+opacity: 0.75;
 }
 
 .button{
@@ -60,15 +63,22 @@ footer{
     margin:0;
     width: 100%;
     height:450px;
-    background-color: white;
-    text-align: center;
-    text-justify: center;
+    color: #fff;
     margin-bottom: 100px;
     background-image: url(./img/footer.jpeg);
+    background-position: center;
+    background-size: cover;
 }
-
-footer .bgImage{
-    height:600px;  
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px/1.5;
+}
+.ft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:30px;
 }
 
 .navbar{
@@ -79,7 +89,6 @@ footer .bgImage{
     position: fixed;
     z-index: +1;
     margin-top:-240px;
-    border-bottom: 2px lightgrey;
     display:flex;
 }
 
@@ -89,11 +98,9 @@ footer .bgImage{
     font-size: 18px;
     font-weight: bold;
 }
-
 .navbar a:hover{
     color: lightblue;
 }
-
 .navbar .container{
     display:flex;
     justify-content: space-between;
@@ -101,19 +108,16 @@ footer .bgImage{
     justify-content: center;
     height: 100%;
 }
-
 .navbar ul{
     display: flex;
     list-style: none;
 }
-
 .navbar ul li{
     margin-left: 20px;
 }
 
 #camp{
     margin: 150px;
-    font: aqua;
 }
 
 #camp text{
@@ -121,9 +125,8 @@ footer .bgImage{
     align-items: center;
     justify-content: space-between;
 }
-
-#camp button{
-    color: aqua;  
+#camp .button{
+    background-color: aqua;  
 }
 
 #gallery{
@@ -131,12 +134,16 @@ footer .bgImage{
     margin-top: 0px;
 }
 
-#gallery image{
-    
-}
 #courses{
     margin:150px
     display: flex;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: auto;
 }
 
 /*wip page*/
@@ -147,7 +154,6 @@ footer .bgImage{
     text-align:center;
     background-image:url('./img/filler.webp'); 
     display: flex;
-    text-justify: center;
 }
 
 /*Gallery Page*/
