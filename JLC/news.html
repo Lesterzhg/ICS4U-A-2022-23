@@ -9,13 +9,15 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo"><img src="./img/logo.png" alt="Jenny Learning Center"></div>
+        <div class="logo"><a href="index.html"><img src="./img/logo.png" alt="Jenny Learning Center"></a></div>
+        <!--<div class="logo"><a href="index.html"><h1>Jenny Learning Center</h1></a>-->
+        <div class="container">
         <ul class="nav">
             <li>
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="abt.html">About Us</a>
+               <a href="abt.html">About Us</a>
             </li>
             <li>
                 <a href="wip.html">Events</a>
@@ -30,33 +32,31 @@
                 <a href="glry.html">Gallery</a>
             </li>
             <li>
-                <a href="wip.html">Past Ceremonies</a>
-            </li>
-            <li>
                 <a href="news.html">Newsletter</a>
             </li>
             <li>
                 <a href="wip.html">中文</a>
             </li>
         </ul>
+        </div>
     </nav>
-    <header>
+    <header id="nhead">
         <div class="container">
-        <h1>Join our Newsletter!</h1>
-        <p>Sign up for our newsletter and stay informed about upcoming events, schedule changes, and new activities</p>
+        <nhead><h1>Join our Newsletter!</h1>
+        <p>Sign up for our newsletter and stay informed about upcoming events, schedule changes, and new activities</p></nhead>
         </div>
     </header>
     <section id="news">
         <div class="container">
-            <h1>Get in Touch</h1>
+            <n1><h1>Get in Touch</h1>
             <p>4438 Sheppard Ave East, Unit 366A <br>
-                Scarborough, M1S5V9 (Oriental Center Mall)
+                Scarborough, M1S5V9 (Oriental Center Mall) <br>
                 <a href="mailto:hello@example.com">lijie1967@yahoo.com</a> <br>
             <a href="https://www.facebook.com/JennyLearningCenter/">Facebook</a> <br>
             <a href="https://www.instagram.com/jenny_learning_center/?hl=en">Instagram</a>
-            </p>
+            </p></n1>
 
-            <form> 
+            <n2><form> 
                 <div>
                     <label>Name (required)</label> <br>
                     <input type="text">
@@ -69,7 +69,8 @@
                     <label>Message</label> <br>
                     <textarea></textarea>
                 </div>
-            </form>
+                <a class="button">Submit</a></div>
+            </form></n2>
         </div>
     </section>
 </body>
