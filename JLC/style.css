@@ -154,35 +154,7 @@ body{
     background-color: lightseagreen;
     color: #fff;
 }
-/* Formatting for Gallery and Camp
-.image-c{
-    display: flex;
-    flex-flow: wrap; 
-}
-.con-item{
-    width:100%; 
-}
-.con-item img {
-    max-height: 100%;
-    max-width: 100%;
-}*/
 
-/*Courses Section (removed)*/
-/*#courses{
-    margin:10%;
-    display: flex;
-}
-.chead{
-    display: flex;
-    text-justify: center;
-}
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10%;
-    height: auto;
-}*/
 /*End of Main Page*/
 
 /*Wip Page*/
